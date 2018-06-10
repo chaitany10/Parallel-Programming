@@ -23,5 +23,5 @@ int main()
 #pragma omp critical
 	sum = sum + partialsum;
 
-	printf("The value of PI is \n", sum);
+	printf("The value of PI is %d\n", sum);
 }
